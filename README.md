@@ -1,4 +1,4 @@
-# Instalações
+# Como configurar o ambiente React para testes
 
 1. `npm install @testing-library/jest-dom @testing-library/react @testing-library/user-event  @vitest/coverage-v8 jsdom vitest path -D`
 
