@@ -12,7 +12,12 @@
     flex-direction: column;
     gap: 6px;
 
-    width: 100%;
+    width: 500px;
+    padding: 32px;
+
+    border: 1px solid lightgray;
+
+    text-align: center;
 
     button {
       margin-top: 10px;
