@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 32px;
+
+  width: 100vw;
+}
+
+.container-pokemons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 250px;
+    height: 350px;
+    padding: 16px;
+
+    border: 1px solid lightgray;
+
+    cursor: pointer;
+
+    h1 {
+      font-size: 32px;
+    }
+
+    img {
+      width: 200px;
+    }
+  }
+}
