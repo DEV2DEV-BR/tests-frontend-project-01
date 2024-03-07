@@ -16,6 +16,7 @@ export default function Login() {
     <div className={styles.container}>
       <form onSubmit={handleSubmit}>
         <h2>Sign In</h2>
+
         <input type="text" placeholder="Insira seu e-mail" />
         <input type="text" placeholder="Insira sua senha" />
         <button>Login</button>
